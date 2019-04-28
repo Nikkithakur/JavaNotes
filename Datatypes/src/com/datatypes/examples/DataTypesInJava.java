@@ -92,7 +92,7 @@ public class DataTypesInJava
 		System.out.println(data.g2);
 		System.out.println(data.h2);
 		
-		// local variables assigned with values, sames goes for all other datatypes
+		// local variables should be assigned with values, sames goes for all other datatypes
 		int a=51333333;
 		System.out.println("local variable a: "+a);
 	}
