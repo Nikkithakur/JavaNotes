@@ -54,9 +54,10 @@ public class AutoboxingAndUnboxing
 		// All classes takes only 2 types of arguments except character(only its corresponding type )
 		//1. String
 		//2. Their corresponding data type
+		// Float can accept above 2 + double
 		// If no arguments are given, then default values are assigned
 		// string of numbers with _ within digits will raise exception
-		// only f for float as a prefix is allowed, L and D not allowed for Long and Double
+		// only f,d for Float wrapper as a prefix is allowed, L and D not allowed for Long and Double
 		Boolean a2= new Boolean("true"); 
 		Character b2=new Character('K');
 		Byte c2=new Byte("123");
@@ -85,8 +86,8 @@ public class AutoboxingAndUnboxing
 		short s=3256;
 		Short d3=new Short(s); 
 		Integer e3=new Integer(1234_567);
-		Long f3=new Long(1331215331351561355L); 
-		Float g3=new Float(1.236564484895353313131319979113366f); 
+		Long f3=new Long(13312153313_51561355L); 
+		Float g3=new Float(1.236564484_89_5353313131319979113366f); 
 		Double h3= new Double(9.36212545566868942212453566624146465555554831366444656888888888);
 		
 		System.out.println("Boolean value: "+a3);
