@@ -24,6 +24,10 @@ package com.datatypes.examples;
  * 
  * 
  * char can't be converted to short or byte
+ *
+ *Exception:
+ * char has to be casted to short and
+ * short also has to be casted to char
  * 
  */
 public class TypeConversionAndTypeCasting {
